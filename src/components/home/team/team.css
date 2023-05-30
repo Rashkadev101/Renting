@@ -1,0 +1,107 @@
+.team .box {
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 2rem;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.team .box:hover {
+  box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+  cursor: pointer;
+}
+.team .details {
+  text-align: center;
+  margin-top: 30px;
+}
+.team .img {
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  position: relative;
+}
+.team img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.team .img i {
+  color: #108be7;
+  font-size: 17px;
+  position: absolute;
+  top: 35px;
+  right: -10px;
+}
+.team .img::after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: 110px;
+  height: 110px;
+  border: 5px solid #edf0f5;
+  border-radius: 50%;
+}
+.team label {
+  display: inline-block;
+  margin-top: 20px;
+}
+.team i {
+  color: grey;
+  margin-right: 5px;
+}
+.team ul {
+  display: inline-block;
+  margin-top: 10px;
+}
+.team ul li {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  align-items: center;
+  background-color: #f4f5f7;
+  border-radius: 50%;
+  margin: 5px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.btnTeam {
+  padding:7px ;
+  font-size: 12px;
+  background: steelblue;
+}
+.buttonsForMessage{
+  color: #ffffff;
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+  
+}
+.btnMessage {
+  background: steelblue;
+  
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.btnCall {
+  background-color: teal;
+  color: #ffffff;
+}
+.team .button {
+  margin-top: 20px;
+}
+.team .button i {
+  color: white;
+  font-size: 20px;
+}

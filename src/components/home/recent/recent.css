@@ -1,0 +1,53 @@
+.box {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.img {
+  height: 200px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.recent .text {
+  padding: 30px;
+}
+.recent .category span {
+  padding: 4px 15px;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-block;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+.recent .category i {
+  font-size: 20px;
+  color: #bec7d8;
+}
+.recent p {
+  color: #72809d;
+}
+.btn2 {
+  background: steelblue;
+  width: 130px;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.recent .button {
+
+  border-top: 1px solid #e4e8f3;
+  padding: 10px 30px;
+}

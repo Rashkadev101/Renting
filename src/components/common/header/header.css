@@ -1,0 +1,87 @@
+header {
+  background-color: #191944;
+  color: white;
+  height: 14vh;
+  box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+.logo h1 {
+  text-transform: capitalize;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 1px;
+}
+.logo h1 strong {
+  color: steelblue;
+}
+
+header a {
+  color: rgb(209, 209, 209);
+  margin-left: 30px;
+  transition: 0.5s;
+  font-weight: 500;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.8px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+header a:hover {
+  color: grey;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.btn1 {
+  background: steelblue;
+  width: 140px;
+  height: 43px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+header .toggle {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0;
+  }
+  header img {
+    margin-top: 30px;
+  }
+  header .button {
+    display: none;
+  }
+  header .nav .flex {
+    display: none;
+  }
+  header .toggle {
+    display: block;
+    margin-top: 20px;
+  }
+  header .small {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    background-color: #27ae60;
+    padding: 20px;
+  }
+  header li a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+}
